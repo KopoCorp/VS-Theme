@@ -1,0 +1,24 @@
+{
+  "name": "kopo-theme",
+  "displayName": "Kopo Theme",
+  "description": "Un theme au couleur de Kopo pour VS code",
+  "version": "1.0.0",
+  "publisher": "Itayon",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kopo Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kopo-theme-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/KopoCorp/VS-Theme"
+  }
+}
